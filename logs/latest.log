@@ -1,92 +1,95 @@
-[19:46:38] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[19:46:38] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
-[19:46:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:46:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[19:46:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[22:44:49] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[22:44:49] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[22:44:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:44:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[22:44:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - playit-gg (0.2.0)
-[19:46:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:46:52] [ServerMain/INFO]: Loaded 1515 recipes
-[19:46:52] [ServerMain/INFO]: Loaded 1617 advancements
-[19:46:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[19:46:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 946.3ms
-[19:46:54] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[19:46:54] [Server thread/INFO]: Loading properties
-[19:46:54] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
-[19:46:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:46:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:46:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:46:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:46:55] [Server thread/INFO]: Default game type: SURVIVAL
-[19:46:55] [Server thread/INFO]: Generating keypair
-[19:46:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:46:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:46:56] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[19:46:56] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[19:46:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:46:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:46:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:46:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:46:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:46:56] [Server thread/INFO]: Preparing level "world"
-[19:46:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[19:46:57] [Server thread/INFO]: Preparing spawn area: 100%
-[19:46:57] [Server thread/INFO]: Prepared spawn area in 2 ms
-[19:46:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[19:46:57] [Server thread/INFO]: Prepared spawn area in 0 ms
-[19:46:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[19:46:57] [Server thread/INFO]: Prepared spawn area in 3 ms
-[19:46:57] [Server thread/INFO]: Done preparing level "world" (0.839s)
-[19:46:57] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[19:46:57] [Thread-0/INFO]: Stopping server
-[19:46:58] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[19:46:58] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[19:46:58] [Thread-0/INFO]: [playit-gg] Disabling playit-gg v0.2.0
-[19:46:58] [Thread-0/INFO]: Saving players
-[19:46:58] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
-java.lang.IllegalStateException
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:133) ~[paper-26.1.2.jar:?]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:956) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:952) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1061) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:942) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:1018) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-[19:46:58] [Server thread/INFO]: [spark] Starting background profiler...
-[19:46:59] [Thread-3/WARN]: Exception in thread "Thread-3" java.lang.IllegalStateException: The plugin classloader for playit-gg has thrown a zip file error.
-[19:46:59] [Thread-3/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
-[19:46:59] [Thread-3/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
-[19:46:59] [Thread-3/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//com.fasterxml.jackson.databind.type.TypeFactory._fromClass(TypeFactory.java:1465)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//com.fasterxml.jackson.databind.type.TypeFactory._fromAny(TypeFactory.java:1391)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//com.fasterxml.jackson.databind.type.TypeFactory._fromParamType(TypeFactory.java:1628)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//com.fasterxml.jackson.databind.type.TypeFactory._fromAny(TypeFactory.java:1395)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//com.fasterxml.jackson.databind.type.TypeFactory.constructType(TypeFactory.java:758)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3635)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.api.ApiClient._callInternal(ApiClient.java:198)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.api.ApiClient._callNoFail(ApiClient.java:166)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.api.ApiClient.v1AgentsRundata(ApiClient.java:54)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.minecraft.PlayitKeysSetup.progress(PlayitKeysSetup.java:146)
-[19:46:59] [Thread-3/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.minecraft.PlayitManager.run(PlayitManager.java:102)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
-[19:46:59] [Thread-3/WARN]: Caused by: java.lang.IllegalStateException: zip file closed
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.util.zip.ZipFile.getMetaInfVersions(ZipFile.java:1073)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.util.zip.ZipFile$1.getMetaInfVersions(ZipFile.java:1116)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.util.jar.JarFile.getVersionedEntry(JarFile.java:590)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:499)
-[19:46:59] [Thread-3/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
-[19:46:59] [Thread-3/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
-[19:46:59] [Thread-3/WARN]: 	... 16 more
-[19:46:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:46:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:46:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:46:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:46:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:46:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:46:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:46:59] [Server thread/INFO]: Running delayed init tasks
-[19:46:59] [Server thread/INFO]: Done (22.877s)! For help, type "help"
-[19:48:04] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:49:04] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[22:44:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:45:04] [ServerMain/INFO]: Loaded 1515 recipes
+[22:45:05] [ServerMain/INFO]: Loaded 1617 advancements
+[22:45:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:45:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 978.2ms
+[22:45:06] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[22:45:06] [Server thread/INFO]: Loading properties
+[22:45:06] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
+[22:45:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:45:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:45:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:45:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:45:07] [Server thread/INFO]: Default game type: SURVIVAL
+[22:45:07] [Server thread/INFO]: Generating keypair
+[22:45:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:45:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:45:08] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:45:08] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[22:45:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:45:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:45:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:45:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:45:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:45:08] [Server thread/INFO]: Preparing level "world"
+[22:45:09] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[22:45:09] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:45:09] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[22:45:09] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:45:09] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[22:45:09] [Server thread/INFO]: Prepared spawn area in 0 ms
+[22:45:09] [Server thread/INFO]: Done preparing level "world" (0.670s)
+[22:45:09] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[22:45:10] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[22:45:10] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[22:45:11] [Server thread/INFO]: [spark] Starting background profiler...
+[22:45:12] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[22:45:12] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[22:45:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:45:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:45:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:45:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:45:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:45:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:45:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:45:12] [Server thread/INFO]: Running delayed init tasks
+[22:45:12] [Thread-3/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:860:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[22:45:12] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xcc3984b3, L:/[0:0:0:0:0:0:0:0]:25565]
+[22:45:12] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[22:45:12] [Server thread/INFO]: Done (25.041s)! For help, type "help"
+[22:45:12] [Thread-3/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[22:45:14] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: external-holds.gl.joinmc.link
+[22:45:14] [Thread-3/INFO]: playit.gg: tunnel setup
+[22:45:14] [Thread-3/INFO]: playit.gg: external-holds.gl.joinmc.link
+[22:45:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:58703, peerAddr=186.236.214.71:13836, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 107, -109, -71, -35, -31, -27, 79, -70, -20, -42, 71, 54, 12, -94, 92, -83, 31, -85, 10, 106, 98, -103, -108, 0, 0, 0, 0, 0, 38, -101, -26, 0, 0, 0, 0, 0, 99, -83, 8, 0, 0, 0, 0, 0, 66, 34, -33, -98, -5, -85, 10, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 16, 0, 37, 36, 0, -121, 6, 29, 101, 120, 116, 101, 114, 110, 97, 108, 45, 104, 111, 108, 100, 115, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -28, 111, 76, 120, -38, 54, -38, 110, -52, 108, -42, -39, 71, -122, -29, 26], tunnelServerId=0, tunnelId=4334303, dataCenterId=2, portOffset=0}
+[22:45:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[22:45:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
+[22:45:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[22:45:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[22:45:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:58703, peerAddr=186.236.214.71:13110, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 106, -109, -71, -35, -31, -27, 79, -70, -20, -42, 71, 51, 54, -120, 3, 7, 40, -85, 10, 106, 98, -103, -108, 0, 0, 0, 0, 0, 38, -101, -26, 0, 0, 0, 0, 0, 99, -83, 8, 0, 0, 0, 0, 0, 66, 34, -33, -119, 5, -85, 10, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0, 36, 35, 0, -121, 6, 28, 101, 120, 116, 101, 114, 110, 97, 108, 45, 104, 111, 108, 100, 115, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, -27, 79, 2, -114, -59, -83, -100, -86, 98, 34, -16, 84, 43, 82, 45, 125, 17, 1, -116], tunnelServerId=0, tunnelId=4334303, dataCenterId=2, portOffset=0}
+[22:45:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[22:45:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
+[22:45:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[22:45:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[22:45:40] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[22:45:40] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[22:45:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[22:45:40] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[22:45:40] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[22:45:40] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[22:45:40] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /186.236.214.71:13836
+[22:45:40] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /186.236.214.71:13110
+[22:45:40] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[22:45:40] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[22:45:41] [User Authenticator #0/INFO]: UUID of player wehue is cd8eba85-bad4-3d10-bb2f-e40bc1f103f4
+[22:45:45] [Server thread/INFO]: wehue joined the game
+[22:45:45] [Server thread/INFO]: wehue[/186.236.214.71:13110] logged in with entity id 67 at ([minecraft:overworld]-848.3000000119209, 65.4148694088814, 210.3129920155904)
+[22:47:41] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[22:47:41] [Server thread/INFO]: wehue lost connection: Disconnected
+[22:47:41] [Server thread/INFO]: wehue left the game
+[22:47:41] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:58703, peerAddr=186.236.214.71:13910, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 107, -109, -71, -35, -31, -27, 79, -70, -20, -42, 71, 54, 86, 72, 100, -70, -13, -85, 10, 106, 98, -102, 13, 0, 0, 0, 0, 0, 38, -101, -26, 0, 0, 0, 0, 0, 99, -83, 8, 0, 0, 0, 0, 0, 66, 34, -33, 36, -49, -85, 10, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 5, 0, 37, 36, 0, -121, 6, 29, 101, 120, 116, 101, 114, 110, 97, 108, 45, 104, 111, 108, 100, 115, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -83, -24, -25, -72, -110, -56, 106, -10, -107, 6, 66, 26, 33, 27, 92, 90], tunnelServerId=0, tunnelId=4334303, dataCenterId=2, portOffset=0}
+[22:47:41] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[22:47:41] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
+[22:47:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[22:47:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[22:47:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[22:47:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[22:47:41] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[22:47:41] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /186.236.214.71:13910
+[22:47:41] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
